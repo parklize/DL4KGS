@@ -21,3 +21,5 @@ The vectors are gensim Doc2Vec model, a simple example of measuring similarity b
 model = Doc2Vec.load(path)
 sim = model.docvecs.similarity(item, c)
 ```
+- [book](https://drive.google.com/open?id=1gfAYN-RDnxnyFAHHnfP2s8l7_avqhWmO)
+- [music](https://drive.google.com/open?id=10DNLzGg6qH-GCfAMI4-rWc45QbpYie1i)
