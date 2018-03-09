@@ -11,6 +11,7 @@ For example, the vector for "entityName" can be accessed by ent_vectors['http://
 - [music](https://drive.google.com/open?id=17rvBNN1tpPG_JhlFGEN_jRH816fz6JMm)
 
 ## TransE
+The provided files consist of (1) item/entity indices & (2) corresponding vectors.
 - [book]
 - [music](https://drive.google.com/open?id=1ZzFRyESVLslsCeGxq_gPaNdnOjALRx7Y)
 
