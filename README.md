@@ -15,3 +15,9 @@ The provided files consist of (1) item/entity indices & (2) corresponding vector
 - [book]
 - [music](https://drive.google.com/open?id=1ZzFRyESVLslsCeGxq_gPaNdnOjALRx7Y)
 
+## Doc2Vec
+The vectors are gensim Doc2Vec model, a simple example of measuring similarity between two URIs (item, c) is as below:
+```
+model = Doc2Vec.load(path)
+sim = model.docvecs.similarity(item, c)
+```
