@@ -12,7 +12,7 @@ For example, the vector for "entityName" can be accessed by ent_vectors['http://
 
 ## TransE
 The provided files consist of (1) item/entity indices & (2) corresponding vectors.
-- [book]
+- [book](https://drive.google.com/open?id=1pRlU3R-u2lgBEhX7dDA5lgDu9uWDKijS)
 - [music](https://drive.google.com/open?id=1ZzFRyESVLslsCeGxq_gPaNdnOjALRx7Y)
 
 ## Doc2Vec
