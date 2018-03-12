@@ -5,6 +5,7 @@ This page provides the details of domain-specific embeddings learned from differ
 The vectors are [gensim](https://radimrehurek.com/gensim/) KeyedVectors, therefore, it can be loaded using KeyedVectors.
 ```
 ent_vectors = KeyedVectors.load_word2vec_format('tmp/'+domain+'/walks.txt.gz', binary=True)
+sim = ent_vectors.similarity(item, c)
 ```
 For example, the vector for "entityName" can be accessed by ent_vectors['http://dbpedia.org/resource/entityName'], and please refer to https://radimrehurek.com/gensim/models/keyedvectors.html for more functions.
 - [book](https://drive.google.com/open?id=1E3FscznHFfFbqtk9ydaRbdAFG80R7SuB)
